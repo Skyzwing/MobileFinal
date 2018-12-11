@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_margin="30dp">
+    <EditText
+        android:drawableStart="@drawable/ic_action_name"
+        android:id="@+id/username_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" User Id" />
+    <EditText
+        android:drawableStart="@drawable/ic_action_name1"
+        android:id="@+id/name_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Name" />
+    <EditText
+        android:drawableStart="@drawable/ic_action_age1"
+        android:id="@+id/ageRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint=" Age" />
+    <EditText
+        android:drawableStart="@drawable/ic_action_password"
+        android:id="@+id/password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint=" Password" />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register New account"/>
+</LinearLayout>
